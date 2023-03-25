@@ -1,0 +1,39 @@
+Get Heroes
+
+http://localhost:3000/heroes
+
+Get Heroes Limit
+
+http://localhost:3000/heroes?limite={id}
+
+Get Hero
+
+http://localhost:3000/heroes/{id}
+
+Create Hero(Post)
+
+http://localhost:3000/heroes
+
+{
+  "superhero":"Batman",
+  "publisher":"DC Comics",
+  "alter_ego":"Bruce Wayne",
+  "first_appearance":"Detective Comics N27",
+  "characters":"Bruce Wayne"
+}
+
+Patch Hero
+
+http://localhost:3000/heroes/{id}
+
+{
+  "superhero":"Superman",
+  "publisher":"DC Comics",
+  "alter_ego":"Kal-El",
+  "first_appearance":"Action Comics N1",
+  "characters":"Kal-El"
+}
+
+Delete Hero
+
+http://localhost:3000/heroes/{id}
